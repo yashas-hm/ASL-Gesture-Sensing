@@ -9,7 +9,7 @@ This projects detects ASL gestures and then predicts the output in realtime.
 ![MediaPipe](https://raw.githubusercontent.com/google/mediapipe/master/docs/images/mediapipe_small.png)
 
 ## Project Description
-This video uses mediapipe to detect hands, pose and face to predict actions and gestures. The porject takes 30 frames, 30 times for a single action. I have used an Sequntial Model with LTSM and Dense Layers.<br>
+This Project uses mediapipe to detect hands, pose and face to predict actions and gestures. The project takes 30 frames, 30 times for a single action. I have used an Sequntial Model with LTSM and Dense Layers.<br>
 This Project can also be used for people that sign, to explain themselves to the people who do not understand sign language.<br>
 
 ## Screenshots
