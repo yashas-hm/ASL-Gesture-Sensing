@@ -23,6 +23,7 @@ Students     :
 ## Requirements
 | Name | Version |
 | :---: | :--- |
+| Jupyter Notebook | 6.4.0 |
 | Python | 3.9.5 | 
 | mediapipe | 0.8.9.1 |
 | tensorflow | 2.5.0 |
