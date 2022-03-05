@@ -1,4 +1,4 @@
-# ASL Gesture Sensing 
+# ASL Gesture Sensing Device (Harpocrates)
 
 This projects detects ASL gestures and then predicts the output in realtime.<br>
 For the time being we have only added two signs ie. Hello and Thank you, more actions can be trained and added.
