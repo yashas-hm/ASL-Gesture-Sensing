@@ -39,6 +39,12 @@ Once the action is predicted the action is converted to speech.
 
 This Project can be used by the people that sign, to explain themselves to the people who do not understand sign language.
 
+## Categorical Accuracy Graph While Training Data
+![Categorical Accuracy Graph](Media/accuracy.png)
+
+## Confusion Matrix for the Predictions
+![Confusion Matrix](Media/confusion_matrix.png)
+
 ## Screenshots
 ![ScreenShot](Media/Screenshot%20(10).png)
 
