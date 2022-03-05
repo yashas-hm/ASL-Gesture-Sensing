@@ -1,6 +1,7 @@
 # ASL Gesture Sensing 
 
-This projects detects ASL gestures and then predicts the output in realtime.
+This projects detects ASL gestures and then predicts the output in realtime.<br>
+For the time being we have only added two signs ie. Hello and Thank you, more actions can be trained and added.
 
 ## Team Details
 College Name : Indus University Ahmedabad<br>
@@ -32,8 +33,11 @@ Students     :
 
 ## Project Description
 This Project uses mediapipe to detect hands, pose and face to predict actions and gestures. The project takes 30 frames, 30 times for a single action. We have used an Sequential Model with LTSM and Dense Layers.<br>
-This Project can be used for people that sign, to explain themselves to the people who do not understand sign language.<br>
 Once the action is predicted the action is converted to speech.
+
+**Harpocrates** is a device that uses an in-built camera to take action inputs and uses this ASL_Gesture_Sensing Algorithm to predict the actions and convert them to text. The text is then converted to speech and played through the in-built speaker.<br>
+
+This Project can be used by the people that sign, to explain themselves to the people who do not understand sign language.
 
 ## Screenshots
 ![ScreenShot](Media/Screenshot%20(10).png)
@@ -43,6 +47,11 @@ Once the action is predicted the action is converted to speech.
 ![Video](Media/detector.gif)
 
 **Real Time Gesture Prediction**
+
+![Model Image 1](Media/1.png)
+![Model Image 2](Media/2.png)
+
+**Harpocrates 3D Model**
 
 ## References
 This project is made using the help of [Nicholas Renotte](https://www.youtube.com/watch?v=doDUihpj6ro).
