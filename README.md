@@ -3,7 +3,7 @@
 This projects detects ASL gestures and then predicts the output in realtime.<br>
 For the time being we have only added two signs ie. Hello and Thank you, more actions can be trained and added.
 
-## Team Details
+<!-- ## Team Details
 College Name : Indus University Ahmedabad<br>
 Mentor       : Sejal Thakkar<br>
 Students     : 
@@ -13,7 +13,7 @@ Students     :
 | Saumya Ramolia | Training Data |
 | Khushi Manek | Design |
 | Ritika Dhall | Research |
-
+ -->
 ## Technologies Used
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)<br>
