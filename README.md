@@ -18,7 +18,7 @@ Students     :
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)<br>
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)<br>
-![MediaPipe](https://raw.githubusercontent.com/google/mediapipe/master/docs/images/mediapipe_small.png)
+MediaPipe
 
 ## Requirements
 | Name | Version |
