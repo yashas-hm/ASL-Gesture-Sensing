@@ -1,69 +1,41 @@
-# ASL Gesture Sensing Device (Harpocrates)
+# 🤚 ASL Gesture Sensing Device (Harpocrates)
 
-This projects detects ASL gestures and then predicts the output in realtime.<br>
-For the time being we have only added two signs ie. Hello and Thank you, more actions can be trained and added.
+Welcome to **Harpocrates**, an innovative device designed to detect American Sign Language (ASL) gestures and provide real-time predictions. Currently, it supports basic signs like "Hello" and "Thank you," with the potential for expanding its repertoire through further training.
 
-<!-- ## Team Details
-College Name : Indus University Ahmedabad<br>
-Mentor       : Sejal Thakkar<br>
-Students     : 
-| Name | Role |
-| :---: | :---: |
-| **Yashas H Majmudar** | Model Generation and Dataset Creation | 
-| Saumya Ramolia | Training Data |
-| Khushi Manek | Design |
-| Ritika Dhall | Research |
- -->
-## Technologies Used
+## 🔧 Technologies Used
+`Python` `TensorFlow` `MediaPipe`
 
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)<br>
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)<br>
-MediaPipe
+## 📝 Project Description
+**Harpocrates** employs MediaPipe for hand, pose, and face detection, utilizing a Sequential Model with LSTM and Dense Layers for prediction. It captures 30 frames per action, ensuring accurate recognition. Once a gesture is predicted, it is converted to speech, making communication seamless.
 
-## Requirements
-| Name | Version |
-| :---: | :--- |
-| Jupyter Notebook | 6.4.0 |
-| Python | 3.9.5 | 
-| mediapipe | 0.8.9.1 |
-| tensorflow | 2.5.0 |
-| pyttsx3 | 2.90 |
-| numpy | 1.19.5 |
-| opencv-python | 4.5.5.62 |
-| matplotlib | 3.4.2 |
+**Harpocrates** serves as a bridge between sign language users and those unfamiliar with it, facilitating communication and understanding.
 
-## Project Description
-This Project uses mediapipe to detect hands, pose and face to predict actions and gestures. The project takes 30 frames, 30 times for a single action. We have used an Sequential Model with LTSM and Dense Layers.<br>
-Once the action is predicted the action is converted to speech.
-
-**Harpocrates** is a device that uses an in-built camera to take action inputs and uses this ASL_Gesture_Sensing Algorithm to predict the actions and convert them to text. The text is then converted to speech and played through the in-built speaker.<br>
-
-This Project can be used by the people that sign, to explain themselves to the people who do not understand sign language.
-
-## Categorical Accuracy Graph
+## 📊 Categorical Accuracy Graph
 ![Categorical Accuracy Graph](Media/accuracy.png)
 
-**This graph shows categorical accuracy data with increasing epochs while training the model**
+This graph illustrates the categorical accuracy's progression with increasing epochs during model training.
 
-## Confusion Matrix for the Predictions
+## 🔄 Confusion Matrix for Predictions
 ![Confusion Matrix](Media/confusion_matrix.png)
 
-## Screenshots
-![ScreenShot](Media/Screenshot%20(10).png)
+## 📸 Screenshots
+![Face, Pose, and Hands Detection](Media/Screenshot%20(10).png)
 
-**Face, Pose and Hands Detection**
+Face, pose, and hands detection in action.
 
-![Video](Media/detector.gif)
+![Real-Time Gesture Prediction](Media/detector.gif)
 
-**Real Time Gesture Prediction**
+Real-time gesture prediction.
 
 ![Model Image 1](Media/1.png)
 ![Model Image 2](Media/2.png)
 
-**Harpocrates 3D Model**
+3D model of **Harpocrates**.
 
-## References
-This project is made using the help of [Nicholas Renotte](https://www.youtube.com/watch?v=doDUihpj6ro).
+## 🔗 References
+This project draws inspiration and guidance from [Nicholas Renotte's tutorial](https://www.youtube.com/watch?v=doDUihpj6ro).
 
-## Liscense
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+## 📜 License
+[![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+Feel free to explore and contribute to **Harpocrates**! 🚀
